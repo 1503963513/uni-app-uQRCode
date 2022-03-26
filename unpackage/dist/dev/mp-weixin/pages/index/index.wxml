@@ -1,0 +1,1 @@
+<view class="home"><text>首页</text><view class="proCanvas"><canvas style="{{'width:'+(canvasW+'px')+';'+('heigth:'+(canvasH+'px')+';')}}" canvas-id="myCanvas"></canvas></view></view>

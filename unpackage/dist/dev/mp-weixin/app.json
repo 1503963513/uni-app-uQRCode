@@ -1,0 +1,40 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/works/index",
+    "pages/mine/index"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#8a8a8a",
+    "selectedColor": "#d81e06",
+    "borderStyle": "black",
+    "list": [
+      {
+        "text": "首页",
+        "pagePath": "pages/index/index",
+        "iconPath": "static/icon/shouye.png",
+        "selectedIconPath": "static/icon/shouyed.png"
+      },
+      {
+        "text": "文集",
+        "pagePath": "pages/works/index",
+        "iconPath": "static/icon/boke.png",
+        "selectedIconPath": "static/icon/boked.png"
+      },
+      {
+        "text": "关于博主",
+        "pagePath": "pages/mine/index",
+        "iconPath": "static/icon/personal.png",
+        "selectedIconPath": "static/icon/personaled.png"
+      }
+    ]
+  },
+  "usingComponents": {}
+}
